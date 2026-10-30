@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Galería de Arte - Contacto</title>
+</head>
+<body>
+    <!-- Menú de navegación principal -->
+    <nav>
+        <a href="index.html">Inicio</a> | 
+        <a href="galeria.html">Galería</a> | 
+        <a href="contacto.html">Contacto</a>
+    </nav>
+    <h1>Formulario de Contacto</h1>
+    <form action="#">
+        <h1>Ingresa tus datos</h1>
+        <p>
+            <label for="nombre">Nombre:</label><br>
+            <input type="text" id="nombre" name="nombre" required>
+        </p>
+        <p>
+            <label for="correo">Correo electrónico:</label><br>
+            <input type="email" id="correo" name="correo" required>
+        </p>
+        <p><label for="Telefono">Numero Telefonico:</label><br>
+            <input type="numero id="numero" name="numero" required>
+         </p>
+        <p>
+            <label for="solicitud">Tipo de solicitud:</label><br>
+            <select id="solicitud" name="solicitud" required>
+                <option value="">-- Selecciona una opción --</option>
+                <option value="Compra">Compra</option>
+                <option value="Consulta">Consulta</option>
+                <option value="Venta">Venta</option>
+            </select>
+        </p>
+        <p>
+            <label for="mensaje">Mensaje:</label><br>
+            <textarea id="mensaje" name="mensaje" rows="4" cols="40" required></textarea>
+        </p>
+        <button type="submit">Enviar Mensaje</button>
+    </form>
+    <hr>
+    <h2>Contacto Free Nature</h2>
+    <p><strong>Dirección:</strong> Avenida siempreviva #742, Ciudad Pelotillegue</p>
+    <p><strong>Teléfono:</strong> +56 983773266</p>
+    <P><strong>Correo:</strong> FreeNature@gmail.cl</P>
+    <div>
+        <img src="img/free.jpg" width="300">
+    </div>
+</body>
+</html>
